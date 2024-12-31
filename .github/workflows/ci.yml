@@ -30,3 +30,9 @@ jobs:
       - name: Running tests
         run: |
           python -m pytest add.py
+
+      sonar.projectKey=lab5
+sonar.projectName=lab5
+sonar.projectVersion=1.0
+sonar.language=python
+
